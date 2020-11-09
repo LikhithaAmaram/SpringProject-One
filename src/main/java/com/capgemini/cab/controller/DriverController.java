@@ -40,7 +40,7 @@ public class DriverController {
 			//{"username":"ajay","password":"Ajay@123"}
 	
 	/*
-	 * Author: Likitha Reddy
+	 * Author: Likhitha Reddy
 	 * Method: driverLogin()- this method is implemented when driver wants to login
 	 * Return type: Returns string which gives login response
 	 * Parameter: we'll pass validated driver object which contains all the necessary attributes.

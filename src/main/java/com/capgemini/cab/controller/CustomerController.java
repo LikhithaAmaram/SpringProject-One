@@ -47,7 +47,7 @@ public class CustomerController {
 	private CustomerServiceImpl customerServiceImpl;
 	
 	//http://localhost:9092/api/customer/login
-		//{"username":"godhadevi","password":"Bandari@123"}
+		//{"username":"Likhitha","password":"Likhitha@123"}
 	
 	/*
 	 * Author: Bhavita
@@ -69,7 +69,7 @@ public class CustomerController {
 	
 	
 	//http://localhost:9092/api/customer/add
-//{"customerid":"543","firstname":"Godha","lastname":"Bandari","gender":"f","contact":"7095531873","email":"godha@gmail.com","username":"godhadevi","password":"Bandari@123","driver_id":507}
+//{"customerid":"543","firstname":"Likhitha","lastname":"Reddy","gender":"f","contact":"8498962576","email":"likhithaamaram@gmail.com","username":"likhitha","password":"likhitha@123","driver_id":507}
 	
 		
 		/*
@@ -99,7 +99,7 @@ public class CustomerController {
 	catch (Exception e) 
 	{
 		logger.error("Driver Login Details Not Found: ");
-		return new ResponseEntity<>(null,HttpStatus.INTERNAL_SERVER_ERROR);
+		return new ResponseEntity<String>("Missing Details",HttpStatus.INTERNAL_SERVER_ERROR);
 	}
 	}
 	@ResponseStatus(HttpStatus.BAD_REQUEST)

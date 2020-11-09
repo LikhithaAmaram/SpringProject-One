@@ -38,7 +38,6 @@ public class DriverResponseTest {
 		Mockito.when(driverRepository.existsByResponse("Success")).thenReturn(false);
 	}
 	
-	// used to signal that the annotated method is a test method
 	@Test
 	void testBooking3()
 	{
